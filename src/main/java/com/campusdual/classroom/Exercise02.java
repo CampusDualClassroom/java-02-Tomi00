@@ -7,12 +7,12 @@ public class Exercise02 {
         double a, l;
 
         // TODO: ↓ Fórmula del área de un círculoS: a = radio * radio * Número PI
-
-        System.out.println("Area: " + a);
+        double area = Math.PI * Math.pow(r, 2);
+        System.out.println("Area: " + area);
 
         // TODO: ↓ Fórmula de la longitud de una circunferencia: l = 2 * radio * Número PI
-
-        System.out.println("Longitud:  " + l);
+        double longitud = 2 * Math.PI * r;
+        System.out.println("Longitud:  " + longitud);
 
     }
 }
